@@ -19,17 +19,17 @@ public class TasksApplication {
 		String title = taskDto.getTitle();;
 		String content = taskDto.getContent();
 
-		List<Integer> oceny = List.of(3, 1, 1, 5, 6, 4);
-		List<Integer> wagi = List.of(4, 6, 8, 4, 4, 10);
-
-		Average average = new Average();
-
-		double wynik = average.average(oceny,wagi);
-
-		System.out.println(wynik);
+//		List<Integer> oceny = List.of(3, 1, 1, 5, 6, 4);
+//		List<Integer> wagi = List.of(4, 6, 8, 4, 4, 10);
+//
+//		Average average = new Average();
+//
+//		double wynik = average.average(oceny,wagi);
+//
+//		System.out.println(wynik);
 
 		System.out.println(id + " " + title + " " + content);
-		//SpringApplication.run(TasksApplication.class, args);
+		SpringApplication.run(TasksApplication.class, args);
 	}
 
 }
