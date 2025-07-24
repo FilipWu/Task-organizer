@@ -2,11 +2,12 @@ package com.crud.tasks;
 
 import com.crud.tasks.avg.Average;
 import com.crud.tasks.domain.TaskDto;
+import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.List;
-
+@OpenAPIDefinition
 @SpringBootApplication
 public class TasksApplication {
 
